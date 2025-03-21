@@ -239,3 +239,13 @@ if __name__ == "__main__":
 
     print(f"Starting server on port {PORT}")
     uvicorn.run(app, host="0.0.0.0", port=PORT)
+
+
+
+
+
+
+
+
+#to make a call use this curl request
+#curl --location --request POST 'https://633d-106-51-90-72.ngrok-free.app/make-call'
